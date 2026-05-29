@@ -80,7 +80,8 @@ I already know all of that.  You don't have to tell me.
 
 I.M.A.P. is a small Windows desktop status viewer. It looks 
 like a boring compliance report or diagnostic tool. On launch, it will run a series of
-read-only checks against Windows printing APIs and display a checklist of
+read-only checks against Windows printing APIs that are (very roughly) based on the "Why bambu_networking 
+violates the AGPL in Bambu Studio" list, and then display a checklist of
 results.
 
 Example categories:
