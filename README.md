@@ -78,9 +78,9 @@ I already know all of that.  You don't have to tell me.
 
 ## What This Is
 
-I.M.A.P. is a small Windows desktop status viewer. It looks 
+I.M.A.P. is a small Windows desktop status viewer that looks 
 like a boring compliance report or diagnostic tool. On launch, it will run a series of
-read-only checks against Windows printing APIs that are (very roughly) based on the "Why bambu_networking 
+read-only checks against Windows printing APIs - these checks are (very roughly) based on the "Why bambu_networking 
 violates the AGPL in Bambu Studio" list, and then display a checklist of
 results.
 
@@ -97,9 +97,9 @@ Example categories:
 - The AGPL app performs publisher/signature validation.
 - The AGPL app performs update-adjacent read-only inspection.
 
-Those are all normal software integration patterns. They may be facts in a real
-licensing analysis, but they are not magic license-contamination triggers by
-themselves.
+The point is that these are all normal software integration patterns. They may 
+be facts in a real licensing analysis, but they are not magic 
+license-contamination triggers in-and-of themselves.
 
 ## What This Is Not
 
@@ -165,4 +165,4 @@ drivers, changes services, or triggers Windows Update.  It is strictly read-only
 ## Releases
 
 The release artifact is a self-contained build, so you do not need to install
-.NET separately.
+.NET separately.  Releases [can be found here](https://github.com/xiaodown/imap/releases).
