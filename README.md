@@ -16,7 +16,7 @@ it."
 
 The *reductio ad absurdum* here would be: since this program is AGPL'd, 
 and yet depends on and is deeply integrated with the proprietary Windows printer 
-subsystem - in fact, implementing a number of the bullet points that supposedly 
+subsystem - in fact, implementing a number of the bullet point claims that supposedly 
 "prove" AGPL violations are happening - we can confidently say that Windows 
 violates the AGPL.
 
@@ -87,8 +87,8 @@ I already know all of that.  You don't have to tell me.
 I.M.A.P. is a small Windows desktop status viewer that looks 
 like a boring compliance report or diagnostic tool. On launch, it will run a series of
 actions integrating with Windows printing APIs - these checks are (very roughly) 
-based on the "Why bambu_networking violates the AGPL in Bambu Studio" list -  
-and then display a checklist of results.
+based on the "Why bambu_networking violates the AGPL in Bambu Studio" list - and then 
+on completion it will display a checklist of results.
 
 Example categories:
 
