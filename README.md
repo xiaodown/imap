@@ -14,6 +14,12 @@ integration patterns that resemble claims sometimes made in arguments that "a
 closed component must become AGPL merely because an AGPL program integrates with
 it."
 
+The *reductio ad absurdum* here would be: since this program is AGPL'd, 
+and yet depends on and is deeply integrated with the proprietary Windows printer 
+subsystem - in fact, implementing a number of the bullet points that supposedly 
+"prove" AGPL violations are happening - we can confidently say that Windows 
+violates the AGPL.
+
 The point is not that Microsoft is violating the AGPL. The point is the exact
 opposite: if the same mechanical checklist of "evidence" were applied here, it
 would produce an obviously absurd result.
