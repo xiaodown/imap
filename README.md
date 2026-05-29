@@ -63,11 +63,11 @@ the AGPL; however, it is my opinion that none of these are obviously and unambig
 
 So, I had the idea to write a program, licensed with the AGPL, that accomplishes 
 as many of these points as is reasonable for me to vibe-code in one evening, that 
-integrates with a closed source interface, in order to "prove" (hyperbole) that Windows
-is violating the AGPL - the actual thing that I am attempting to imply is that 
-just because an AGPL'd program contains references to, and links deeply with, 
-proprietary code, that does not mean that the AGPL then virally attaches to 
-whatever the proprietary code is.
+integrates with a closed source interface, in order to "prove" (hyperbole) that the 
+closed source program violates the AGPL - while the actual thing that I am attempting 
+to imply is that just because an AGPL'd program contains references 
+to, and links deeply with, proprietary code, that does not mean that the AGPL 
+then virally attaches to whatever the proprietary code is.
 
 The most absurd way I could think to "demonstrate" this is to write something that
 integrates with Windows.  I chose the printer subsystem because, well, Bambu Lab
