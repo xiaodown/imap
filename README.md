@@ -66,9 +66,6 @@ The most absurd way I could think to "demonstrate" this is to write something th
 integrates with Windows.  I chose the printer subsystem because, well, Bambu Lab
 does printers.  And I thought it'd be funny.  
 
-This whole thing was pretty much because [I wrote this reddit comment](https://www.reddit.com/r/BambuLab/comments/1tjqiwm/bambus_firm_stance_softened_overnight_but_lawyer/on4ks7g/?context=3) and then
-figured "huh, wonder how hard that would actually be?"
-
 ## Things I already know
 
 I know that this is not a 1:1 comparable scenario to the Bambu Lab / OrcaSlicer-bambulab
