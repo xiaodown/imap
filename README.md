@@ -135,6 +135,8 @@ Run the app:
 dotnet run --project src/Imap.App
 ```
 
+Or, download a [published release](https://github.com/xiaodown/imap/releases), unzip it, and run `Imap.App.exe`.
+
 Create a self-contained Windows x64 build:
 
 ```powershell
