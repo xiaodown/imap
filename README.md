@@ -8,11 +8,11 @@ It is a deliberately deadpan Windows desktop application that
 demonstrates how sloppy technical/legal reasoning about AGPL software can reach
 absurd conclusions.
 
-The intended app is an AGPL-licensed Windows program that integrates with the
+I.M.A.P. is an AGPL-licensed Windows program that integrates with the
 proprietary Windows printing subsystem. It intentionally performs real
-integration patterns that resemble claims sometimes made in arguments that a
+integration patterns that resemble claims sometimes made in arguments that "a
 closed component must become AGPL merely because an AGPL program integrates with
-it.
+it."
 
 The point is not that Microsoft is violating the AGPL. The point is the exact
 opposite: if the same mechanical checklist of "evidence" were applied here, it
