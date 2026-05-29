@@ -18,6 +18,12 @@ The point is not that Microsoft is violating the AGPL. The point is the exact
 opposite: if the same mechanical checklist of "evidence" were applied here, it
 would produce an obviously absurd result.
 
+<p align="center">
+  <img src="assets/screen1.png" alt="screenshot of the app" width=650>
+  <img src="assets/screen2.png" alt="screenshot of the about window">
+</p>
+
+
 ## Why this exists / Bambu Lab context
 
 Bambu Lab sent a pretty petty communication to user jarczakpawel regarding his
@@ -123,6 +129,10 @@ dotnet build Imap.slnx
 dotnet test Imap.slnx
 ```
 
+<p align="center">
+  <img src="assets/screen3.png" alt="screenshot of building and testing">
+</p>
+
 Run the app:
 
 ```powershell
@@ -134,6 +144,10 @@ Create a self-contained Windows x64 build:
 ```powershell
 dotnet publish src/Imap.App/Imap.App.csproj --configuration Release --runtime win-x64 --self-contained true --output artifacts/imap-win-x64
 ```
+
+<p align="center">
+  <img src="assets/screen4.png" alt="screenshot of artifact creation">
+</p>
 
 ## Known Limitations
 
@@ -150,14 +164,5 @@ drivers, changes services, or triggers Windows Update.  It is strictly read-only
 
 ## Releases
 
-The release artifact is a self-contained build, so users do not need to install
+The release artifact is a self-contained build, so you do not need to install
 .NET separately.
-
-To create a release from the command line:
-
-```powershell
-git tag v0.1.0
-git push origin v0.1.0
-```
-
-The release workflow can also be run manually from the GitHub Actions tab.
