@@ -151,7 +151,7 @@ dotnet publish src/Imap.App/Imap.App.csproj --configuration Release --runtime wi
 
 ## Known Limitations
 
-Publisher observation (comparable to *"18. Default publisher validation further ties the plugin to the application"*) 
+Publisher verification (comparable to *"18. Default publisher validation further ties the plugin to the application"*) 
 uses read-only `WinVerifyTrust` validation for
 `winspool.drv`. If the file is catalog-signed rather than embedded-signed, the
 app falls back to Windows PowerShell's built-in `Get-AuthenticodeSignature`
