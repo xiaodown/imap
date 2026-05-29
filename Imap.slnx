@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Imap.App/Imap.App.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Imap.Tests/Imap.Tests.csproj" />
+  </Folder>
+</Solution>

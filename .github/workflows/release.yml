@@ -1,0 +1,51 @@
+name: release
+
+on:
+  push:
+    tags:
+      - "v*.*.*"
+  workflow_dispatch:
+    inputs:
+      version:
+        description: "Release version tag, such as v0.1.0"
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  windows:
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v4
+        with:
+          dotnet-version: 10.0.x
+
+      - name: Restore
+        run: dotnet restore Imap.slnx
+
+      - name: Build
+        run: dotnet build Imap.slnx --configuration Release --no-restore
+
+      - name: Test
+        run: dotnet test Imap.slnx --configuration Release --no-build
+
+      - name: Publish self-contained Windows app
+        run: dotnet publish src/Imap.App/Imap.App.csproj --configuration Release --runtime win-x64 --self-contained true --output artifacts/imap-win-x64
+
+      - name: Create release archive
+        shell: pwsh
+        run: Compress-Archive -Path artifacts/imap-win-x64/* -DestinationPath artifacts/imap-win-x64.zip
+
+      - name: Create GitHub release
+        uses: softprops/action-gh-release@v2
+        with:
+          tag_name: ${{ github.event_name == 'workflow_dispatch' && inputs.version || github.ref_name }}
+          target_commitish: ${{ github.sha }}
+          files: artifacts/imap-win-x64.zip
