@@ -49,12 +49,11 @@ And from looking at the Bambu Studio code, it is my opinion that Bambu Studio is
 specifically written *not to require* the networking plugin.  The argument that 
 Bambu Lab is violating the AGPL, in my opinion, seems to boil down to:
 
-**"Bambu Studio is open source, and Bambu Studio does a bunch of specific things to**
-**integrate with this plugin, therefore the plugin is part of Bambu Studio"**
+### "Bambu Studio is open source, and Bambu Studio does a bunch of specific things to integrate with this plugin, therefore the plugin is part of Bambu Studio"
 
 The published piece [Why bambu_networking violates the AGPL in Bambu Studio](https://github.com/jarczakpawel/OrcaSlicer-bambulab/blob/main/bambu_agpl.md) contains
 a number of points that ostensibly explain why Bambu Studio is in violation of
-the AGPL; however, it is my opinion that almost none of these are valid.
+the AGPL; however, it is my opinion that none of these are obviously and unambiguously valid.
 
 So, I had the idea to write a program, licensed with the AGPL, that accomplishes 
 as many of these points as is reasonable for me to vibe-code in one evening, that 
