@@ -32,7 +32,7 @@ would produce an obviously absurd result.
 
 ## Why this exists / Bambu Lab context
 
-Bambu Lab sent a pretty petty communication to user jarczakpawel regarding his
+Bambu Lab sent a pretty petty communication to user jarczakpawel regarding their
 Orca Slicer fork that included a workaround for some of the network restrictions
 that Bambu Lab has imposed recently.  This wasn't a cease-and-desist, but it was
 a "stop doing that or we will send you a cease-and-desist", and I think Bambu Lab
