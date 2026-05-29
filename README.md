@@ -80,9 +80,9 @@ I already know all of that.  You don't have to tell me.
 
 I.M.A.P. is a small Windows desktop status viewer that looks 
 like a boring compliance report or diagnostic tool. On launch, it will run a series of
-read-only checks against Windows printing APIs - these checks are (very roughly) based on the "Why bambu_networking 
-violates the AGPL in Bambu Studio" list, and then display a checklist of
-results.
+actions integrating with Windows printing APIs - these checks are (very roughly) 
+based on the "Why bambu_networking violates the AGPL in Bambu Studio" list -  
+and then display a checklist of results.
 
 Example categories:
 
@@ -105,10 +105,10 @@ license-contamination triggers in-and-of themselves.
 
 This project is not legal advice.
 
-This project does not claim that Microsoft violates the AGPL.
+This project does not seriously claim that Microsoft violates the AGPL.
 
 This project is not an attempt to evade software licenses. It is a commentary
-tool about bad reasoning around software licenses.
+on bad reasoning around software licenses.
 
 ## Implementation
 
